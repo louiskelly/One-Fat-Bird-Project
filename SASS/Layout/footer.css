@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  flex-direction: row; }
+
+.cart {
+  flex-grow: 1;
+  background-color: red;
+  min-height: 100%; }
+
+.orderbox {
+  width: 200px;
+  height: 100%; }

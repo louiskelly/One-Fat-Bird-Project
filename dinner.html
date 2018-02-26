@@ -1,0 +1,555 @@
+<html>
+<head>
+  <title>Dinner</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+
+</head>
+<body>
+<div id="flexbox">
+
+
+<nav>
+	<a href="index.html"><span class="backbutton glyphicon glyphicon-arrow-left"></span></a>
+
+	<!-- TRANSLATOR CODE -->
+    <div id="google_translate_element"></div><script type="text/javascript">
+	function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,mi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- TRANSLATOR CODE  -->
+  
+  	<a href="server.html"><button class="navbutton button greenbutton">Call Server</button></a>
+
+</nav>
+
+<main class="mainlist">
+	<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close">&times;</span>
+    <h2 class="confirmtitle">Confirm Order?</h2>
+  </div>
+  <div class="modal-body">
+    <a href="thankyou.html"><button class="confirmbutton button yesbutton">YES</button></a><button class="confirmbutton button nobutton closebutton">NO</button>
+  </div>
+</div>
+
+</div>
+
+<!-- MAIN -->
+
+	<div><h2 class="menutitle">MAINS</h2><hr class="line"></div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">GRILLED PORK CHOP</p>
+			<p class="cost">$<span class="product_price">25</span></p>
+			</div>
+				<div class="bottomrow"><small class="desc">crackling, apple sauce, braised red cabbage, mash potato & wholegrain mustard sauce</small></div>
+				<div class="expandoptions">
+			<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+			<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+			</div>
+		<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">TRADITIONAL ENGLISH STYLE FISH N CHIPS</p>
+			<p class="cost">$<span class="product_price">24</span></p>
+			<p class="menutag">GF*</p>
+		</div>
+				<div class="bottomrow"><small class="desc">fresh beer battered fish, chips, minted mushy peas & tartare sauce</small></div>
+				<div class="expandoptions">
+			<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+			<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+			<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+			</div>
+		<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">BANGERS & MASH</p>
+			<p class="cost">$<span class="product_price">24</span></p>
+			<p class="menutag">GF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">venison sausages with onion gravy</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">FULL RACK OF RIBS</p>
+			<p class="cost">$<span class="product_price">25</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">slow cooked sweet Louisiana style pork ribs, smoked bbq sauce, house slaw & chips</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">ROASTED SPICED CAULIFLOWER SALAD</p>
+			<p class="cost">$<span class="product_price">19</span></p>
+			<p class="menutag">V</p>
+			<p class="menutag">GF</p>
+			<p class="menutag">DF*</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">a cold salad with fresh herbs, spring onions, dried cranberries, natural yoghurt, fresh chillies & tossed almonds</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<input type="checkbox" name="options" value="GL"> Dairy Free<br>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">250G SIRLOIN STEAK</p>
+			<p class="cost">$<span class="product_price">29</span></p>
+			<p class="menutag">GF*</p>
+			<p class="menutag">DF*</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">roasted mushroom & tomato, chips & rocket with your choice of garlic butter or peppercorn sauce</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<div class="inputdiv">
+				<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+				<input type="checkbox" name="options" value="GL"> Dairy Free<br></div>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">PAN FRIED REGAL SALMON</p>
+			<p class="cost">$<span class="product_price">28</span></p>
+			<p class="menutag">GF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">buttered potatoes, broccolini & salsa verde</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">THAI GREEN VEGETABLE CURRY</p>
+			<p class="cost">$<span class="product_price">20</span></p>
+			<p class="menutag">V</p>
+			<p class="menutag">GF</p>
+			<p class="menutag">DF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">optional chicken, prawn or fish</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div><h2 class="menutitle">BURGERS</h2><hr class="line"></div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">CLASSIC CHEESEBURGER</p>
+			<p class="cost">$<span class="product_price">21</span></p>
+			<p class="menutag">GF*</p>
+			<p class="menutag">DF*</p>	
+		</div>
+				<div class="bottomrow">
+				<small class="desc">200g beef patty, bacon, smoked cheddar, tomato, gherkins, lettuce & burger sauce</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<div class="inputdiv">
+				<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+				<input type="checkbox" name="options" value="GL"> Dairy Free<br></div>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">VEGGIE BURGER</p>
+			<p class="cost">$<span class="product_price">20</span></p>
+			<p class="menutag">V</p>
+			<p class="menutag">GF*</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">fried halloumi, tomato, beetroot & lettuce</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">SPICY FRIED BUTTERMILK CHICKEN</p>
+			<p class="cost">$<span class="product_price">21</span></p>
+			<p class="menutag">GF*</p>
+			<p class="menutag">DF*</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">bacon, avocado, smoked cheddar & sriracha sauce</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<div class="inputdiv">
+				<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+				<input type="checkbox" name="options" value="GL"> Dairy Free<br></div>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div><h2 class="menutitle">ENTREE</h2><hr class="line"></div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">MIXED OLIVES</p>
+			<p class="cost">$<span class="product_price">8</span></p>
+			<p class="menutag">V</p>
+			<p class="menutag">GF</p>
+			<p class="menutag">DF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">marinated in lemon oil & fresh basil</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">GARLIC BAGUETTE</p>
+			<p class="cost">$<span class="product_price">8</span></p>
+			<p class="menutag">V</p>
+			<p class="menutag">GF*</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">fresh out the oven</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">CHICKEN WINGS</p>
+			<p class="cost">$<span class="product_price">12</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">with lemon pepper mayo</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">DILL & GARLIC PRAWNS</p>
+			<p class="cost">$<span class="product_price">13</span></p>
+			<p class="menutag">GF</p>
+			<p class="menutag">DF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">popcorn capers, cos lettuce & marie rose sauce</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">MUSHROOM & MOZZARELLA ARANCINI BALLS</p>
+			<p class="cost">$<span class="product_price">13</span></p>
+			<p class="menutag">V</p>
+			<p class="menutag">GF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">napoli sauce & basil pesto</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>		
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">OFB CHICKEN LIVER PATE</p>
+			<p class="cost">$<span class="product_price">14</span></p>
+			<p class="menutag">GF*</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">gherkins, beetroot relish & crostini</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				<input type="checkbox" name="options" value="GL"> Gluten Free<br>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">SALT & PEPPER SQUID</p>
+			<p class="cost">$<span class="product_price">14</span></p>
+			<p class="menutag">DF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">sweet chilli, soy, ginger & sesame glaze with carrot, orange & coriander salad</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">SEAFOOD CHOWDER</p>
+			<p class="cost">$<span class="product_price">14</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">fresh fish, smoked hoki, mussels & warm bread roll</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div><h2 class="menutitle">SIDES</h2><hr class="line"></div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">HOUSE SLAW</p>
+			<p class="cost">$<span class="product_price">4</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">HOUSE SALAD</p>
+			<p class="cost">$<span class="product_price">5</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>	
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">BRAISED RED CABBAGE</p>
+			<p class="cost">$<span class="product_price">5</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">SEASONAL VEGETABLES</p>
+			<p class="cost">$<span class="product_price">6</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">MASH POTATO</p>
+			<p class="cost">$<span class="product_price">7</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">CHIPS</p>
+			<p class="cost">$<span class="product_price">8</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">WAFFLE CHIPS</p>
+			<p class="cost">$<span class="product_price">9</span></p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc"></small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div><h2 class="menutitle">SIGNATURES</h2><hr class="line"></div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">ONE STUFFED BIRD</p>
+			<p class="cost">$<span class="product_price">25</span></p>
+			<p class="menutag">GF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">sundried tomato stuffed chicken breast, bacon blue cheese sauce, mash potato & roasted mushrooms</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+	<div class="product productitem">
+		<div class="toprow">
+			<p class="itemname product_title">ONE POSH BIRD</p>
+			<p class="cost">$<span class="product_price">26</span></p>
+			<p class="menutag">GF</p>
+		</div>
+				<div class="bottomrow">
+				<small class="desc">pan seared duck breast, kumara ouree, braised red cabbage & sloe gin jus</small></div>
+				<div class="expandoptions">
+				<button class="button addremovebutton add"><span class="glyphicon glyphicon-plus"></span></button>
+				<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+				</div>
+				<hr class="line">
+
+	</div>
+
+<!-- END OF MAIN -->
+</main>
+
+<footer>
+<!-- CART -->
+<div id="cart">
+	<div id="CartContainer">
+		<div id="template" class="product">
+			<button class="button addremovebutton remove"><span class="glyphicon glyphicon-minus"></span></button>
+			<p class="itemname product_title blocktitle"></p>
+			<p class="product_price hidden"></p>
+			<p class="quantityleft menutag">X <span class="product_quantity"></span></p>
+			<p class="priceright cost">$<span class="sub_price"></span></p><hr class="line">
+
+
+		</div>
+	</div>
+</div>
+<div id="orderbox">
+	<p class="totalcost">Total Cost</p>
+	<p class="grandcost">$<span class="pricecount"></span></p>
+	<button id="myBtn" class="button greenbutton">Place Order</button>
+
+
+</div>
+
+
+</footer>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="JS/CartFunctionality.js"></script>
+<script src="JS/jquery.popupoverlay.js"></script>
+<script src="JS/scripts.js"></script>
+
+</body>
+</html>

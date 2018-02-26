@@ -1,0 +1,16 @@
+#MyCarousel{
+	height: 250px;
+	overflow: hidden;
+	display: relative;
+}
+
+.carouselslide{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.carousel-caption{
+	background-color: rgba(60, 60, 60, 0.4);
+	top: 0;
+	bottom: auto;
+}

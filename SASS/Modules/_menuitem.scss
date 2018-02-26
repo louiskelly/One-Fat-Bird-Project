@@ -1,0 +1,53 @@
+.menutitle{
+	margin-top: 0px;
+	margin-bottom: $pad;
+}
+
+.line{
+	margin-top: 0px;
+	margin-bottom: $pad;
+}
+
+.itemname{
+	display: inline-block;
+	margin-right: $pad;
+}
+
+.cost{
+	display: inline-block;
+	margin-right: $pad;
+}
+
+.menutag{
+	display: inline-block;
+	margin-right: $pad;
+}
+
+.desc{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.toprow{
+	margin-top: 0px;
+	margin-bottom: $pad;
+}
+
+.toprow p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.bottomrow{
+	margin-top: 0px;
+	margin-bottom: $pad;
+}
+
+.bottomrow small{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.expandoptions{
+	display: none;
+}

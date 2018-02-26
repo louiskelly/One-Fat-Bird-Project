@@ -1,0 +1,34 @@
+@import "../Utilities/typography";
+@import "../Utilities/variables";
+
+.mainthanks{
+	background-color: $maingreen;
+	text-align: center;
+	text-align: center;
+}
+
+.navthanks{
+	background-color: $maingreen;
+}
+
+.footerthanks{
+	background-color: $maingreen;
+}
+
+.thanks{
+	margin: 30px;
+	margin-top: 70px;
+}
+
+.birdlogo{
+	margin-top: 100px;
+}
+
+.whitediv{
+	background-color: white;
+	padding: 20px;
+}
+
+.serverdiv{
+	display: none;
+}

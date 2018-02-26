@@ -1,0 +1,77 @@
+.mainsplash{
+	background-color: transparent;
+	position: relative;
+
+}
+
+.navsplash{
+	background-color: transparent;
+}
+
+.footersplasH{
+	background-color: white;
+}
+
+.smalllogo{
+	margin: 0 auto;
+	width: 97px;
+	height: 100px;
+	margin-top: 30px;
+}
+
+.splashdiv{
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	background-color: $maingreen;
+	height: 150px;
+	width: 100%;
+}
+
+.splashtext{
+	margin-top: 45px;
+}
+
+@-webkit-keyframes MOVE-BG {
+   from {
+     -webkit-transform: translateX(0);
+   }
+   to { 
+     -webkit-transform: translateX(-187%);
+   }
+}
+
+#content {
+	overflow: hidden;
+  height: 100%;
+  text-align: center;
+  font-size: 26px;
+  color: #000;
+  position:relative;
+}
+
+.bg{
+    position: absolute;
+    left: 0;
+    right: -550px;
+    top: 0;
+    bottom: 0;
+	background: url(../IMG/ofbbackground.png) 0% 0% repeat;
+    z-index: -1;
+    
+    -moz-animation-name: MOVE-BG;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+    
+    -moz-animation-duration: 100s;
+	-webkit-animation-duration: 100s;
+    animation-duration: 100s;
+    
+    -moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    
+    -moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}

@@ -1,0 +1,62 @@
+footer{
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+}
+
+#cart{
+	display: inline-block;
+	flex-grow: 1;
+	background-color: white;
+	height: 165px;
+	width: 70%;
+	margin: 0px;
+	border: none;
+	padding: none;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#orderbox{
+	display: inline-block;
+	width: 30%;
+	height: 165px;
+	background-color: white;
+	margin: 0px;
+	border: none;
+	padding: 8px;
+	text-align: center;
+}
+
+#template{
+	display: none;
+}
+
+#CartContainer{
+	padding: 8px;
+}
+
+.quantityleft{
+	display: inline-block;
+}
+
+.priceright{
+	display: inline-block;
+	float: right;
+}
+
+.blocktitle{
+	display: inline-block;
+}
+
+.addremovebutton{
+	margin-bottom: 8px;
+}
+
+button.remove{
+	margin-right: 8px;
+}
+
+.hidden{
+	display: none;
+}

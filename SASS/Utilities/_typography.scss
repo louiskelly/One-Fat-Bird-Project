@@ -1,0 +1,76 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.greenbutton{
+	@include font;
+	font-size: 20px;
+}
+
+.confirmbutton{
+	@include font;
+	font-size: 40px;
+}
+
+.largebutton{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+}
+
+.confirmtitle{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+}
+
+//MENULIST
+
+h2.menutitle{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: $maingreen;
+}
+
+p.itemname{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: black;
+}
+
+p.cost{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: $maingreen;
+}
+
+p.menutag{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: black;
+}
+
+p.totalcost{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+}
+
+p.grandcost{
+	color: $maingreen;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+}
+//########
+
+.thanks{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 44px;
+}
